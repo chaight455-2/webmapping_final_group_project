@@ -1,6 +1,7 @@
 # Team Name
 
 ### Team Members
+Nolan Hegge, Charlie Haight, Aiden Schooff
 
 ### Final Proposal
 1. Persona/Scenario
