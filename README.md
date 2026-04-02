@@ -28,4 +28,4 @@ TODO:
 
 3. Wireframes
 Inline-style: 
-![alt text](https://github.com/chaight455-2/webmapping_final_group_project/edit/project-proposal/img/PrimaryMap.jpg "Map 1")
+![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/PrimaryMap.jpg "Map 1")
