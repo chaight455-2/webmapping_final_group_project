@@ -27,5 +27,12 @@ TODO:
 
 
 3. Wireframes
-Inline-style: 
-![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/PrimaryMap.jpg "Map 1")
+Wireframe showing primary functionality such as filter, search, zoom/pan, and retreive, : 
+![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/PrimaryMap.jpg "Primary Map")
+
+Wireframe showing the resymbolize feature using the point/utility selection to find buildings containing the utility nearset to the selected starting point: 
+![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/ResymbolizeMap.jpg "Resymbolize Map")
+
+Wireframe showing the sequence feature which allows users to select the day and time to see open buildings: 
+![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/TimeSequenceMap.jpg "Time Map")
+
