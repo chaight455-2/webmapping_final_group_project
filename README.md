@@ -21,9 +21,11 @@ TODO:
         6. **Zoom and Pan** - Users will have free zooming and panning capabilities down to the level of inside a small building, and up to the level of campus in its entirety
 
     2. Required Data
-        1. Madison Open Data portal?
-        2. Team Collected Data - Finding the locations of microwaves, fridges, other utilities
-        3. Campus Building Hours Data
+        1. Campus Boundaries (Madison Open Data portal)
+        2. Campus Building GeoJSON (Madison Open Data portal)
+        3. Base Layer (Open Street Maps)
+        4. Team Collected Data (Finding the locations of microwaves, fridges, other utilities)
+        5. Campus Building Hours Data (UW-Madison Facilities Website)
 
 
 3. Wireframes:
