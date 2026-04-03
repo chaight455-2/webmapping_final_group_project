@@ -32,7 +32,7 @@ Our scenario revolves around our hypothetical UW-Madison student Bob. Bob has ju
 
 3. Wireframes:
 
-The wireframes pictured below help show off some of the core functionality and operators of the campus utility map that our group plans to create.
+The wireframes pictured below help show off some of the core functionality and operators of the campus utility map that our group plans to create. Comments on map functionality/design choices are circled with arrows pointing to the design choices.
 
 Wireframe showing primary functionality such as filter, search, zoom/pan, and retreive, : 
 ![alt text](https://github.com/chaight455-2/webmapping_final_group_project/blob/project-proposal/img/PrimaryMap.jpg "Primary Map")
