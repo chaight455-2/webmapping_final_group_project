@@ -1,4 +1,4 @@
-# University of Wisconsin Madison Utilities Map
+# University of Wisconsin Madison Amenities Map
 
 ### Team Members
 Nolan Hegge, Charlie Haight, Aidan Schooff
