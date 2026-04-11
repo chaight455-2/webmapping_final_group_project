@@ -1,0 +1,30 @@
+{
+    "name": "UW-Madison Campus Amenities",
+    "short_name": "UW Amenities",
+    "description": "Find microwaves, fridges, vending machines, computers, and printers across UW-Madison campus buildings.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#c5050c",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "img/icon-192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "img/icon-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "img/icon-maskable-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ]
+}
