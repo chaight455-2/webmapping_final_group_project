@@ -1,0 +1,113 @@
+building_id,building_name,monday_hours,tuesday_hours,wednesday_hours,thursday_hours,friday_hours,saturday_hours,sunday_hours,num_microwaves,num_refrigerators,num_vending_machines,num_public_computers,num_printers_copiers,floor_microwave,floor_refrigerator,floor_vending_machine,floor_public_computers,floor_printers_copiers,access_notes,date_collected,data_collector,notes
+1,Music Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,0,0,0,1,1,null,null,null,null,4/16/26,NH/CH/AS,null
+2,Agricultural Bulletin Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,1,2,1,null,null,1,1,1,Public,4/16/26,NH/CH/AS,null
+3,Agricultural Engineering Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,4,1,1,1,1,2,2,Public,4/16/26,NH/CH/AS,null
+4,Agricultural Engineering Laboratory,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,1,2,1,null,null,1,1,1,Public,4/16/26,NH/CH/AS,null
+5,Agricultural Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,3,2,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+6,Air Force ROTC,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,2,1,1,1,null,1,1,Student ID required,4/16/26,NH/CH/AS,null
+7,Animal Science Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,3,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+8,Army ROTC,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,2,1,1,1,null,1,1,Student ID required,4/16/26,NH/CH/AS,null
+9,Art Lofts,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+10,"Atmospheric, Oceanic & Space Sciences Building",7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,1,4,2,12,12,1,12,12,Student ID required,4/16/26,NH/CH/AS,null
+11,Babcock Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,3,1,1,1,1,2,2,Public,4/16/26,NH/CH/AS,Babcock Dairy Store on 1st floor
+12,Bakke Recreation & Wellbeing Center,5:30am-11pm,5:30am-11pm,5:30am-11pm,5:30am-11pm,5:30am-9pm,8am-8pm,10am-10pm,2,1,4,3,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+13,Bardeen Medical Laboratories,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+14,Bascom Hall,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,2,1,1,1,null,1,1,Public,4/16/26,NH/CH/AS,null
+15,Below Alumni Center,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,0,1,1,1,1,null,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+16,Biotron Laboratory,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+17,Birge Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,4,2,3,3,1,2,2,Public,4/16/26,NH/CH/AS,null
+18,Bock Laboratories,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+19,Bradley Memorial Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+20,Brogden Psychology Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,4,2,1,1,1,1,2,Public,4/16/26,NH/CH/AS,null
+21,Camp Randall Sports Center,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,3,0,0,null,null,1,null,null,Athletic staff/event,4/16/26,NH/CH/AS,null
+22,Carson Gulley Center,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,2,1,1,1,1,2,2,Public,4/16/26,NH/CH/AS,Dining hall on 1st floor
+23,Chamberlin Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,6,2,4,4,1,3,3,Public,4/16/26,NH/CH/AS,null
+24,Chazen Museum of Art,Closed,10am-5pm,10am-5pm,10am-5pm,10am-5pm,11am-5pm,11am-5pm,0,0,0,2,1,null,null,null,1,1,Public,4/16/26,NH/CH/AS,null
+25,Computer Sciences and Statistics,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,3,2,3,20,4,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+26,Conrad A Elvehjem Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,3,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+27,DeLuca Biochemical Sciences Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,3,2,1,1,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+28,DeLuca Biochemistry Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,3,2,2,2,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+29,DeLuca Biochemistry Laboratories,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+30,Discovery Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,4,2,1,1,1,1,1,Public,4/16/26,NH/CH/AS,Morgridge Institute / Wisconsin Institute for Discovery
+31,Doyle Administration Building,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+32,Education Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,4,2,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+33,Educational Sciences,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,3,1,2,2,1,2,2,Public,4/16/26,NH/CH/AS,null
+34,Engineering Centers Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,3,6,3,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+35,Engineering Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,3,8,3,2,2,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+36,Engineering Research Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,4,2,1,1,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+37,Enzyme Institute,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+38,Extension Building,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+39,Field House,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,2,0,0,null,null,1,null,null,Event-based,4/16/26,NH/CH/AS,null
+40,Fluno Center for Executive Education,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+41,Genetics-Biotechnology Center Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,3,2,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+42,Goodnight Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+43,Gordon Dining and Event Center,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,3,4,1,2,2,1,2,2,Public,4/16/26,NH/CH/AS,Primary south-campus dining hall
+44,Grainger Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,3,2,3,15,3,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+45,Hamel Music Center,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+46,Hanson Biomedical Sciences Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+47,Harlow Primate Lab,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,0,1,1,1,1,null,1,1,Student ID required,4/16/26,NH/CH/AS,null
+48,Helen C White Hall,24 hours,24 hours,24 hours,24 hours,24 hours,24 hours,24 hours,2,1,3,25,4,1,1,1,1,1,Public,4/16/26,NH/CH/AS,College Library is 24-hour access during regular semester; building itself stays open 24 hours
+49,Hiram Smith Annex,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,1,0,0,null,null,1,null,null,Public,4/16/26,NH/CH/AS,null
+50,Hiram Smith Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+51,Horticulture,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+52,Humphrey Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+53,Ingraham Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,4,2,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+54,Jorns Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+55,King Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+56,LaBahn Arena,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,2,0,0,null,null,1,null,null,Event-based,4/16/26,NH/CH/AS,null
+57,Lathrop Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,2,1,1,1,1,2,2,Public,4/16/26,NH/CH/AS,null
+58,Law Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,3,2,3,12,3,2,2,1,2,2,Student ID required,4/16/26,NH/CH/AS,Law School Library housed within
+59,Lowell Center,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+60,Materials Science and Engineering Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+61,McArdle Cancer Research Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+62,McClain Athletic Facility,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,1,0,0,null,null,1,null,null,Athletic staff/event,4/16/26,NH/CH/AS,null
+63,Mechanical Engineering Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,4,2,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+64,Medical Sciences Center,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,3,2,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+65,Memorial Library,8:30am-11pm,8:30am-11pm,8:30am-11pm,8:30am-11pm,8:30am-8pm,12pm-8pm,12pm-11pm,2,1,3,20,4,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+66,Memorial Union,7am-11pm,7am-11pm,7am-11pm,7am-11pm,7am-12am,8am-12am,8am-11pm,4,3,6,15,3,1,1,1,2,2,Public,4/16/26,NH/CH/AS,"Includes Der Rathskeller, Daily Scoop, food court"
+67,Microbial Sciences,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,3,2,3,3,1,2,2,Student ID required,4/16/26,NH/CH/AS,null
+68,Middleton Building,7am-11pm,7am-11pm,7am-11pm,7am-11pm,7am-7pm,10am-6pm,10am-11pm,1,1,2,12,3,1,1,1,1,1,Public,4/16/26,NH/CH/AS,Ebling Library for the Health Sciences
+69,Moore Hall - Agronomy,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+70,Morgridge Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,8,2,1,1,1,1,1,Public,4/16/26,NH/CH/AS,"New School of Computer, Data and Information Sciences building"
+71,Mosse Humanities Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,3,5,2,4,4,1,2,2,Public,4/16/26,NH/CH/AS,null
+72,Nancy Nicholas Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,3,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,School of Human Ecology
+73,Naval ROTC,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,2,1,1,1,null,1,1,Student ID required,4/16/26,NH/CH/AS,null
+74,Nicholas Recreation Center,5:30am-11pm,5:30am-11pm,5:30am-11pm,5:30am-11pm,5:30am-9pm,8am-8pm,10am-10pm,2,1,4,3,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,The Nick
+75,Noland Zoology Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+76,North Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,2,2,Public,4/16/26,NH/CH/AS,null
+77,Nutritional Sciences,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+78,Observatory Hill Office Building,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,1,1,1,1,null,1,1,Public,4/16/26,NH/CH/AS,null
+79,Pyle Center,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,2,3,2,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+80,Radio Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,1,1,1,null,null,1,1,1,Public,4/16/26,NH/CH/AS,null
+81,Red Gym,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,2,4,2,2,2,1,1,1,Public,4/16/26,NH/CH/AS,Student services and Multicultural Student Center
+82,Russell Laboratories,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,3,2,2,2,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+83,Rust-Schreiner Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+84,School of Social Work Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+85,Science Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,2,3,1,2,2,1,3,1,Public,4/16/26,NH/CH/AS,null
+86,Service Memorial Institute,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+87,Sewell Social Sciences,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,6,2,6,6,1,1,1,Public,4/16/26,NH/CH/AS,null
+88,Soils Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+89,South Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+90,State Historical Society,9am-5:30pm,9am-5:30pm,9am-5:30pm,9am-5:30pm,9am-5:30pm,9am-4pm,Closed,0,0,1,6,2,null,null,1,2,2,Public,4/16/26,NH/CH/AS,Wisconsin Historical Society Library on 4th floor
+91,Steenbock Memorial Library,9am-11:30pm,9am-11:30pm,9am-11:30pm,9am-11:30pm,9am-11:30pm,9am-11:30pm,9am-11:30pm,1,1,2,15,3,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+92,Sterling Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,4,2,2,2,1,2,2,Public,4/16/26,NH/CH/AS,null
+93,Stock Pavillion,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,1,0,0,null,null,1,null,null,Event-based,4/16/26,NH/CH/AS,null
+94,Taylor Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+95,Teacher Education,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+96,The Kohl Center,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,3,0,0,null,null,1,null,null,Event-based,4/16/26,NH/CH/AS,null
+97,Tooman Arena,6am-9pm,6am-9pm,6am-9pm,6am-9pm,6am-9pm,Event-dependent,Event-dependent,0,0,1,0,0,null,null,1,null,null,Event-based,4/16/26,NH/CH/AS,null
+98,UW Extension,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Public,4/16/26,NH/CH/AS,null
+99,Union South,7am-11pm,7am-11pm,7am-11pm,7am-11pm,7am-12am,7am-12am,7am-11pm,3,3,5,10,3,1,1,1,1,1,Public,4/16/26,NH/CH/AS,"Includes The Sett, Varsity Hall, Markley's food court"
+100,University Club,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,7:45am-4:30pm,Closed,Closed,1,1,0,0,0,1,1,null,null,null,Members/guests,4/16/26,NH/CH/AS,null
+101,Van Hise Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,4,2,5,5,1,1,1,Public,4/16/26,NH/CH/AS,null
+102,Van Vleck Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,1,2,4,2,2,2,1,2,2,Public,4/16/26,NH/CH/AS,null
+103,Veterinary Medicine North,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+104,Veterinary Medicine South,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+105,Vilas Hall,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,2,2,2,4,2,4,4,1,2,2,Public,4/16/26,NH/CH/AS,null
+106,Washburn Observatory,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,0,0,0,0,0,null,null,null,null,null,Limited public viewing hours,4/16/26,NH/CH/AS,Open select evenings for public viewing
+107,Water Science and Engineering Laboratory,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+108,Weeks Hall for Geological Sciences,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,2,2,1,1,1,Public,4/16/26,NH/CH/AS,null
+109,Wendt Commons,7:30am-12am,7:30am-12am,7:30am-12am,7:30am-12am,7:30am-8pm,12pm-8pm,12pm-12am,1,1,2,15,3,2,2,1,1,1,Public,4/16/26,NH/CH/AS,Engineering library
+110,Wisconsin Energy Institute,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,2,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+111,Wisconsin National Primate Research Center,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
+112,Zoology Research Building,7am-10pm,7am-10pm,7am-10pm,7am-10pm,7am-10pm,Closed,Closed,1,1,1,1,1,1,1,1,1,1,Student ID required,4/16/26,NH/CH/AS,null
