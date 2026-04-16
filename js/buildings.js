@@ -37,6 +37,14 @@ function addBuildings(map, data) {
     return buildingLayer;
 }
 
+// Render the campus boundary as a non-interactive styled outline
+function addBoundary(map, boundary) {
+    return L.geoJson(boundary, {
+        style: CONFIG.BOUNDARY_STYLE,
+        interactive: false
+    }).addTo(map);
+}
+
 // Return style object for a building based on open/closed status
 function getBuildingStyle(feature) {
     var open = isBuildingOpen(feature.properties.hours);
