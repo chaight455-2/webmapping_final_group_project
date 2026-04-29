@@ -1,3 +1,5 @@
+Visit the site at: https://chaight455-2.github.io/UW-Madison-Amenities/
+
 # University of Wisconsin Madison Amenities Map
 
 ### Team Members
