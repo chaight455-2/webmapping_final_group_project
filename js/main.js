@@ -15,5 +15,20 @@
         initFilter(map, buildingLayer, dotsLayer);
         initSearch(map, buildingLayer);
         initGeolocation(map, campusBounds);
+
+        document.getElementById('sheet-close').addEventListener('click', closeBuildingSheet);
+        document.getElementById('sheet-back').addEventListener('click', function() {
+            renderSheet('building');
+            document.getElementById('sheet-close').focus();
+        });
+        document.getElementById('sheet-body').addEventListener('click', function(e) {
+            var row = e.target.closest('.popup-amenity-row');
+            if (row) renderSheet(row.getAttribute('data-type'));
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key !== 'Escape' || !sheetState.feature) return;
+            if (sheetState.view === 'building') closeBuildingSheet();
+            else renderSheet('building');
+        });
     });
 })();

@@ -5,32 +5,7 @@ function addBuildings(map, data) {
             return getBuildingStyle(feature, getCheckTime());
         },
         onEachFeature: function(feature, layer) {
-            layer.bindPopup(buildBuildingPopup(feature));
-
-            // Use event delegation on the popup's content wrapper
-            layer.on('popupopen', function() {
-                var popup = layer.getPopup();
-                var wrapper = popup.getElement().querySelector('.leaflet-popup-content');
-
-                wrapper.addEventListener('click', function(e) {
-                    // Handle amenity row click → drill down
-                    var row = e.target.closest('.popup-amenity-row');
-                    if (row) {
-                        var type = row.getAttribute('data-type');
-                        popup.setContent(buildAmenityDetail(feature, type));
-                        popup.update();
-                        return;
-                    }
-
-                    // Handle back button click → return to building popup
-                    var back = e.target.closest('.detail-back-btn');
-                    if (back) {
-                        popup.setContent(buildBuildingPopup(feature));
-                        popup.update();
-                        return;
-                    }
-                });
-            });
+            layer.on('click', function() { openBuildingSheet(feature); });
         }
     }).addTo(map);
 

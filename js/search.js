@@ -10,7 +10,7 @@ function initSearch(map, buildingLayer) {
             var name = layer.feature.properties.name.toLowerCase();
             if (name.indexOf(query) !== -1) {
                 map.fitBounds(layer.getBounds());
-                layer.openPopup();
+                openBuildingSheet(layer.feature);
             }
         });
     });
