@@ -122,7 +122,7 @@ function csvRowToBuildingProps(row) {
     var mw = amenity(row.num_microwaves, row.floor_microwave, 'See building directory');
     var fr = amenity(row.num_refrigerators, row.floor_refrigerator, 'See building directory');
     var vd = amenity(row.num_vending_machines, row.floor_vending_machine, 'See building directory');
-    var cp = amenity(row.num_public_computers, row.floor_public_computers, 'See building directory');
+    var cp = amenity(row.num_public_computer_labs, row.floor_public_computers, 'See building directory');
     var pr = amenity(row.num_printers_copiers, row.floor_printers_copiers, 'See building directory');
 
     return {
