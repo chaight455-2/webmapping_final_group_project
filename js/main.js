@@ -25,8 +25,13 @@
             var row = e.target.closest('.popup-amenity-row');
             if (row) renderSheet(row.getAttribute('data-type'));
         });
+        document.getElementById('help-button').addEventListener('click', openHelpSheet);
+        document.getElementById('help-close').addEventListener('click', closeHelpSheet);
         document.addEventListener('keydown', function(e) {
-            if (e.key !== 'Escape' || !sheetState.feature) return;
+            if (e.key !== 'Escape') return;
+            var helpSheet = document.getElementById('help-sheet');
+            if (!helpSheet.classList.contains('hidden')) { closeHelpSheet(); return; }
+            if (!sheetState.feature) return;
             if (sheetState.view === 'building') closeBuildingSheet();
             else renderSheet('building');
         });

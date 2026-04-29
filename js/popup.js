@@ -104,3 +104,26 @@ function renderSheet(view) {
         body.innerHTML = buildAmenityDetail(f, view);
     }
 }
+
+var helpSheetState = { lastFocus: null };
+
+function openHelpSheet() {
+    helpSheetState.lastFocus = document.activeElement;
+    var sheet = document.getElementById('help-sheet');
+    sheet.classList.remove('hidden');
+    sheet.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(function() { sheet.classList.add('open'); });
+    document.getElementById('help-close').focus();
+}
+
+function closeHelpSheet() {
+    var sheet = document.getElementById('help-sheet');
+    if (sheet.classList.contains('hidden')) return;
+    sheet.classList.remove('open');
+    sheet.setAttribute('aria-hidden', 'true');
+    sheet.addEventListener('transitionend', function onEnd() {
+        sheet.classList.add('hidden');
+        sheet.removeEventListener('transitionend', onEnd);
+    });
+    if (helpSheetState.lastFocus && helpSheetState.lastFocus.focus) helpSheetState.lastFocus.focus();
+}

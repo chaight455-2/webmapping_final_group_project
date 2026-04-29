@@ -18,9 +18,11 @@
     </head>
 
     <body class="m-0 p-0 h-full font-sans">
-        <div id="search-container" class="absolute top-2.5 left-1/2 -translate-x-1/2 z-[1000] w-[90%] max-w-[400px]">
+        <div id="search-container" class="absolute top-2.5 left-1/2 -translate-x-1/2 z-[1000] w-[calc(100%-110px)] max-w-[400px]">
             <input type="text" id="search-bar" class="w-full px-3.5 py-2.5 text-base border-none rounded-lg shadow-md outline-none box-border" placeholder="Search buildings...">
         </div>
+
+        <button id="help-button" type="button" aria-label="Help and information" class="absolute top-2.5 right-2.5 z-[1000] bg-white shadow-md rounded-lg w-[38px] h-[38px] flex items-center justify-center text-gray-700 font-semibold text-base cursor-pointer border-none">?</button>
 
         <div id="filter-panel" class="absolute top-[60px] left-2.5 z-[1000] bg-white shadow-md rounded-lg overflow-hidden">
             <div id="filter-toggle" class="flex items-center gap-2 px-2.5 py-2 cursor-pointer text-sm font-semibold text-gray-700">
@@ -58,6 +60,37 @@
                 <button id="sheet-close" type="button" aria-label="Close">&times;</button>
             </header>
             <div id="sheet-body"></div>
+        </div>
+
+        <div id="help-sheet" class="hidden" role="dialog" aria-modal="true" aria-labelledby="help-title" aria-hidden="true">
+            <header id="help-header">
+                <h2 id="help-title">About this app</h2>
+                <button id="help-close" type="button" aria-label="Close">&times;</button>
+            </header>
+            <div id="help-body">
+                <h3>About this app</h3>
+                <p>UW-Madison Amenities helps students find everyday essentials &mdash; microwaves, refrigerators, vending machines, public computer labs, and printers/copy machines &mdash; across academic buildings on campus. Use it to plan a quick lunch reheat between classes or find a printer when you need one.</p>
+
+                <h3>How to use</h3>
+                <ul>
+                    <li><strong>Search</strong> for a building by name using the bar at the top.</li>
+                    <li><strong>Filter</strong> by amenity type using the Filters menu in the top-left. Only buildings with the selected amenities will show colored dots.</li>
+                    <li><strong>Tap a building</strong> on the map to see its open/closed status, hours, and a list of available amenities.</li>
+                    <li><strong>Tap an amenity row</strong> in the building popup to see the floor and location of each one inside the building.</li>
+                    <li><strong>Find yourself</strong> by tapping the location button in the bottom-right corner to show your current position on the map.</li>
+                </ul>
+
+                <h3>Amenity legend</h3>
+                <div class="legend-row"><span class="legend-dot" style="background:#e74c3c"></span><span>Microwaves</span></div>
+                <div class="legend-row"><span class="legend-dot" style="background:#3498db"></span><span>Refrigerators</span></div>
+                <div class="legend-row"><span class="legend-dot" style="background:#2ecc71"></span><span>Vending Machines</span></div>
+                <div class="legend-row"><span class="legend-dot" style="background:#9b59b6"></span><span>Public Computer Labs</span></div>
+                <div class="legend-row"><span class="legend-dot" style="background:#f39c12"></span><span>Printers/Copy Machines</span></div>
+
+                <h3>Open/closed status</h3>
+                <p>Each building shows a green <strong>Open</strong> or red <strong>Closed</strong> badge based on the building's hours. Tap <em>Hours</em> in the popup to see the full weekly schedule.</p>
+                <p>Want to plan ahead? Use the <strong>Check open at</strong> day and time picker inside the Filters menu to see which buildings will be open at a future day or time. Tap <em>Now</em> to reset to the current time.</p>
+            </div>
         </div>
 
         <script type="text/javascript" src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
