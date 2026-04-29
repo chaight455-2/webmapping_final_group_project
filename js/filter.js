@@ -14,11 +14,10 @@ function initFilter(map, buildingLayer, dotsLayer) {
     // Wire up the time-of-check picker (day-of-week + time-of-day)
     var dayInput = document.getElementById('check-day');
     var timeInput = document.getElementById('check-time');
-    var resetBtn = document.getElementById('check-time-reset');
 
     function updateCheckTime() {
         var dayVal = dayInput.value;     // '' = today; '0'..'6' = Sun..Sat
-        var timeVal = timeInput.value;   // '' or 'HH:MM'
+        var timeVal = timeInput.value;   // '' = current time; '0'..'23' = hour-of-day
 
         if (dayVal === '' && timeVal === '') {
             checkTime = null;
@@ -29,8 +28,7 @@ function initFilter(map, buildingLayer, dotsLayer) {
                 d.setDate(d.getDate() + ((target - d.getDay() + 7) % 7));
             }
             if (timeVal !== '') {
-                var parts = timeVal.split(':');
-                d.setHours(parseInt(parts[0], 10), parseInt(parts[1], 10), 0, 0);
+                d.setHours(parseInt(timeVal, 10), 0, 0, 0);
             }
             checkTime = d;
         }
@@ -42,12 +40,7 @@ function initFilter(map, buildingLayer, dotsLayer) {
     }
 
     dayInput.addEventListener('change', updateCheckTime);
-    timeInput.addEventListener('input', updateCheckTime);
-    resetBtn.addEventListener('click', function() {
-        dayInput.value = '';
-        timeInput.value = '';
-        updateCheckTime();
-    });
+    timeInput.addEventListener('change', updateCheckTime);
 
     // Toggle expand/collapse
     toggle.addEventListener('click', function() {
