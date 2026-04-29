@@ -21,5 +21,6 @@ function createMap() {
         attribution: CONFIG.TILE_ATTRIBUTION
     }).addTo(map);
 
+    window.__map = map;
     return map;
 }

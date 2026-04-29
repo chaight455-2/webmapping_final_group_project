@@ -1,5 +1,5 @@
 // Initialize the filter panel with amenity checkboxes
-function initFilter(map, buildingLayer) {
+function initFilter(map, buildingLayer, dotsLayer) {
     var panel = document.getElementById('filter-panel');
     var toggle = document.getElementById('filter-toggle');
     var icon = document.getElementById('filter-icon');
@@ -45,6 +45,13 @@ function initFilter(map, buildingLayer) {
         activeFilters.push(amenity.type);
     }
 
+    updateAmenityDots(map, dotsLayer, buildingLayer, activeFilters);
+
+    // Re-wrap dots when zoom changes (building pixel width changes with zoom)
+    map.on('zoomend', function() {
+        updateAmenityDots(map, dotsLayer, buildingLayer, activeFilters);
+    });
+
     // Listen for checkbox changes
     panel.addEventListener('change', function(e) {
         if (e.target.type === 'checkbox') {
@@ -55,6 +62,7 @@ function initFilter(map, buildingLayer) {
                 activeFilters = activeFilters.filter(function(f) { return f !== type; });
             }
             updateBuildingVisibility(buildingLayer, activeFilters);
+            updateAmenityDots(map, dotsLayer, buildingLayer, activeFilters);
         }
     });
 }

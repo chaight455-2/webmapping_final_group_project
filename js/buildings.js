@@ -57,3 +57,73 @@ function getBuildingStyle(feature) {
         fillOpacity: open ? 0.4 : 0.6
     };
 }
+
+// Create the (initially empty) layer that holds amenity dot markers
+function createAmenityDotsLayer(map) {
+    return L.layerGroup().addTo(map);
+}
+
+// Look up an amenity's color from CONFIG.AMENITIES by type
+function getAmenityColor(type) {
+    for (var i = 0; i < CONFIG.AMENITIES.length; i++) {
+        if (CONFIG.AMENITIES[i].type === type) return CONFIG.AMENITIES[i].color;
+    }
+    return '#000';
+}
+
+// Rebuild the amenity dot markers based on the current active filters.
+// One marker per building; its divIcon contains colored dots laid out in a
+// flex grid that wraps when the row would exceed the building's pixel width
+// at the current zoom.
+function updateAmenityDots(map, dotsLayer, buildingLayer, activeFilters) {
+    dotsLayer.clearLayers();
+    if (!activeFilters || activeFilters.length === 0) return;
+
+    var DOT_SIZE = 8;
+    var DOT_GAP = 2;
+
+    buildingLayer.eachLayer(function(layer) {
+        var props = layer.feature.properties;
+        var colors = [];
+
+        for (var i = 0; i < activeFilters.length; i++) {
+            var type = activeFilters[i];
+            if (getAmenityCount(props, type) > 0) {
+                colors.push(getAmenityColor(type));
+            }
+        }
+
+        if (colors.length === 0) return;
+
+        var bounds = layer.getBounds();
+        var nw = map.latLngToContainerPoint(bounds.getNorthWest());
+        var se = map.latLngToContainerPoint(bounds.getSouthEast());
+        var buildingWpx = Math.abs(se.x - nw.x);
+
+        var maxFit = Math.floor((buildingWpx + DOT_GAP) / (DOT_SIZE + DOT_GAP));
+        var perRow = Math.max(1, Math.min(colors.length, maxFit));
+        var rows = Math.ceil(colors.length / perRow);
+
+        var iconW = perRow * DOT_SIZE + (perRow - 1) * DOT_GAP;
+        var iconH = rows * DOT_SIZE + (rows - 1) * DOT_GAP;
+
+        var html = '<div style="display:flex; flex-wrap:wrap; gap:' + DOT_GAP + 'px; width:' + iconW + 'px; pointer-events:none;">';
+        for (var j = 0; j < colors.length; j++) {
+            html += '<span style="width:' + DOT_SIZE + 'px; height:' + DOT_SIZE + 'px; border-radius:50%; background:' + colors[j] + '; box-shadow:0 0 0 1px #fff;"></span>';
+        }
+        html += '</div>';
+
+        var icon = L.divIcon({
+            className: '',
+            html: html,
+            iconSize: [iconW, iconH],
+            iconAnchor: [iconW / 2, iconH / 2]
+        });
+
+        L.marker(bounds.getCenter(), {
+            icon: icon,
+            interactive: false,
+            keyboard: false
+        }).addTo(dotsLayer);
+    });
+}
