@@ -17,8 +17,11 @@ function createMap() {
         maxZoom: 19
     });
 
+    // Ensure that when the map is fully zomed in that the base layer dosen't dissapear
     L.tileLayer(CONFIG.TILE_URL, {
-        attribution: CONFIG.TILE_ATTRIBUTION
+        attribution: CONFIG.TILE_ATTRIBUTION,
+        maxNativeZoom: 18,
+        maxZoom: 19
     }).addTo(map);
 
     window.__map = map;
